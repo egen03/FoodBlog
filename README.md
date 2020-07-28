@@ -13,7 +13,7 @@ What is your application? Food Blog
 Using and generating API
 
 ## Wireframe
-![](Wireframe.png) 
+![](Images/Wireframe.png) 
 
 ## Timeline/Schedule
 Tuesday (today)- proposal / start react app / create app template
