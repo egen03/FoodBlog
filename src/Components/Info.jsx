@@ -7,3 +7,5 @@ function Info(props) {
         </div>
     )
 }
+
+export default Info;
