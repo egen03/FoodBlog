@@ -19,4 +19,4 @@ Using and generating API
 Tuesday (today)- proposal / start react app / create app template
 Wednesday - Friday -  API
 Saturday - Sunday - CSS and polishing
-WW
+
