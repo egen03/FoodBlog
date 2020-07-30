@@ -32,14 +32,14 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          {/* <Route path="/about">
-            <About />
-          </Route> */}
-          {/* <Route path="/users">
-            <Users />
-          </Route> */}
-          {/* <Route path="/">
+          {/* <Route path="/home">
             <Home />
+          </Route> */}
+          {/* <Route path="/recipes">
+            <Recipes />
+          </Route> */}
+          {/* <Route path="/subscribe">
+            <Subscribe />
           </Route> */}
         </Switch>
       </div>
