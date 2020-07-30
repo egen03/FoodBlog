@@ -10,19 +10,19 @@ export default function App() {
   return (
     <Router>
       <div>
-      <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-      <ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
+      <nav className="navbar navbar-light" style="background-color: #e3f2fd;">
+      <ul className="nav justify-content-end">
+  <li className="nav-item">
+    <a className="nav-link active" href="#">Home</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Recipes</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Subscribe</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  <li className="nav-item">
+    <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Erica</a>
   </li>
 </ul>
       </nav>
@@ -30,15 +30,15 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
+          {/* <Route path="/about">
             <About />
-          </Route>
-          <Route path="/users">
+          </Route> */}
+          {/* <Route path="/users">
             <Users />
-          </Route>
-          <Route path="/">
+          </Route> */}
+          {/* <Route path="/">
             <Home />
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </Router>
