@@ -1,5 +1,10 @@
 import React from 'react';
 
 function Title(props) {
-    return()
+    return(
+        <div>
+            <p className="title">{props.title}</p>
+        </div>
+    )
 }
+
