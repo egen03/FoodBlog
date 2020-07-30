@@ -13,16 +13,16 @@ export default function App() {
       <nav className="navbar navbar-light" style="background-color: #e3f2fd;">
       <ul className="nav justify-content-end">
   <li className="nav-item">
-    <a className="nav-link active" href="#">Home</a>
+    <Link to="/home" className="nav-link active">Home</Link>
   </li>
   <li className="nav-item">
-    <a className="nav-link" href="#">Recipes</a>
+    <Link to="/recipes" className="nav-link">Recipes</Link>
   </li>
   <li className="nav-item">
-    <a className="nav-link" href="#">Subscribe</a>
+    <Link to="/subscribe" className="nav-link">Subscribe</Link>
   </li>
   <li className="nav-item">
-    <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Erica</a>
+    <Link to="/contact" className="nav-link disabled" tabindex="-1" aria-disabled="true">Contact Erica</Link>
   </li>
 </ul>
       </nav>
