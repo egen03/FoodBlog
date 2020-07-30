@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home";
+import Title from "./Components/Title";
 
 
 export default function App() {
@@ -46,8 +47,7 @@ export default function App() {
         </Switch>
       </div>
     </Router>
-
-        
+    
   );
   
 }
