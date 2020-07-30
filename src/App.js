@@ -47,10 +47,7 @@ export default function App() {
       </div>
     </Router>
 
-        // <div className="Title">
-        //     <Title title="Eating with Erica" />
-        // </div>
-
+        
   );
   
 }
