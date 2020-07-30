@@ -1,11 +1,13 @@
 import React from 'react';
+import Title from './Title'
 
 const Home = () => {
     return(
-        <div>
-            <p> Eating with Erica</p>
+       <div className="Title">
+            <Title title="Eating with Erica" />
         </div>
     )
+
 }
 
 export default Home;

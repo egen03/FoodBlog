@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home";
+import Title from './Components/Title';
 
 export default function App() {
   return (
@@ -45,8 +46,14 @@ export default function App() {
         </Switch>
       </div>
     </Router>
+
+        // <div className="Title">
+        //     <Title title="Eating with Erica" />
+        // </div>
+
   );
+  
 }
 
 
-
+  
