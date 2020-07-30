@@ -11,7 +11,20 @@ export default function App() {
     <Router>
       <div>
       <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-  {/* <!-- Navbar content --> */}
+      <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
       </nav>
 
         {/* A <Switch> looks through its children <Route>s and
@@ -33,4 +46,4 @@ export default function App() {
 }
 
 
-export default App;
+
