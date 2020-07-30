@@ -5,12 +5,14 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import "./App.css";
 
 export default function App() {
   return (
     <Router>
       <div>
-      <nav className="navbar navbar-light" style="background-color: #e3f2fd;">
+        {/* style="background-color: #e3f2fd; */}
+      <nav className="navbar">
       <ul className="nav justify-content-end">
   <li className="nav-item">
     <Link to="/home" className="nav-link active">Home</Link>
