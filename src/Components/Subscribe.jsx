@@ -3,11 +3,11 @@ import Title from './Title';
 
 const Subscribe = () => {
     return(
-        <div className="form" >
+        <div className="subscribe" >
             <div className="title">
                 <Title title="Eating with Erica" />
             </div>
-            
+
             <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
