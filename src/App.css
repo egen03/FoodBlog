@@ -6,12 +6,14 @@
 .homeContainer {
   background-color: #565676 ;
 }
-
-.card{
+.cardContainer{
   background-color: #565676 ;
-  align-content: center;
+}
+.card{
+  background-color: #a76571 ;
   padding: 40px;
   border: pink solid;
+  width: 40rem;
 }
 
 .foodImage{
