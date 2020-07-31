@@ -1,8 +1,10 @@
 import React from 'react';
+import Title from './Title';
 
 const Subscribe = () => {
     return(
-        <div >
+        <div className="form" >
+            
             <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
