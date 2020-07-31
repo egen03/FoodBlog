@@ -1,7 +1,26 @@
 import React from 'react';
 
 const Api = () => {
-    return()
+
+    fetch("https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/extract?forceExtraction=true&url=http%253A%252F%252Fwww.melskitchencafe.com%252Fthe-best-fudgy-brownies%252F", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
+		"x-rapidapi-key": "2488370bfbmsh08b67cda654568bp1526a1jsnf2ced8aff3ef"
+	}
+})
+.then(response => {
+	console.log(response);
+})
+.catch(err => {
+	console.log(err);
+});
+
+    return(
+        <div>
+            <button>Search</button>
+        </div>
+    );
 }
 
 export default Api;
