@@ -5,6 +5,7 @@
 
 .homeContainer {
   background-color: #565676 ;
+  height: 100vh;
 }
 .cardContainer{
   background-color: #565676 ;
@@ -16,6 +17,7 @@
   /* border: pink solid; */
   width: 40rem;
   left: 400px;
+  
 }
 
 .foodImage{
@@ -51,4 +53,12 @@
   width: 60vw;
   background-color: #a76571;
   
+}
+
+.form-text{
+  color: black;
+}
+
+.text-muted{
+  color: black;
 }
