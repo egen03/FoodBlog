@@ -1,11 +1,16 @@
 import React from 'react';
 import Title from './Title';
+import Info from './Info';
 
 const Subscribe = () => {
     return(
         <div className="subscribe" >
             <div className="title">
                 <Title title="Eating with Erica" />
+            </div>
+
+            <div className= "info">
+                <Info info="Subscribe to our site for more information" />
             </div>
 
             <form>
@@ -15,11 +20,13 @@ const Subscribe = () => {
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
  
-  <div class="form-group form-check">
+  {/* <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1" />
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
+  </div> */}
+
   <button type="submit" class="btn btn-primary">Submit</button>
+
 </form>
         </div>
     )

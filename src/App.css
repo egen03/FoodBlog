@@ -43,3 +43,11 @@
 .subscribe{
   background-color: #565676;
 }
+
+.form-group{
+  border: black solid 1px;
+  padding: 20px;
+  height: 20vh;
+  width: 60vw;
+  
+}
