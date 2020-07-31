@@ -1,12 +1,21 @@
 .navbar {
-  background-color: #565676 ! important;
+  background-color: #aeadf0! important;
   
 }
 
-.homeContainer{
-  background-color: #aeadf0;
+.homeContainer {
+  background-color: #565676 ;
 }
 
-/* .foodImage{
-  height: 200px;
-} */
+.card{
+  background-color: #565676 ;
+  align-content: center;
+  padding: 40px;
+  border: pink solid;
+}
+
+.foodImage{
+  image-resolution: 100px;
+  padding: 40px;
+}
+
