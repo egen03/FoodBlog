@@ -39,9 +39,9 @@ export default function App() {
           <Route path="/home">
             <Home />
           </Route>
-          {/* <Route path="/recipes">
+          <Route path="/recipes">
             <Recipes />
-          </Route> */}
+          </Route>
           {/* <Route path="/subscribe">
             <Subscribe />
           </Route> */}
