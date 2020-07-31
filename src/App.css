@@ -8,16 +8,20 @@
 }
 .cardContainer{
   background-color: #565676 ;
+  
 }
 .card{
   background-color: #a76571 ;
   padding: 40px;
   border: pink solid;
   width: 40rem;
+  position: relative;
+  left: 400px;
 }
 
 .foodImage{
   image-resolution: 100px;
   padding: 40px;
+  position: ;
 }
 

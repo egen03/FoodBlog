@@ -4,11 +4,12 @@ const Recipes = () => {
     return(
         // style="width: 18rem;
         <div className="cardContainer">
-        
+        {/* class="row row-cols-1 row-cols-sm-2" */}
             <div class="card col mb-4">
 
                 <div className="foodImage">
-                <img src={require("/Users/student_ga111/Desktop/Cassini /mod2/foodblog/foodblog/src/Images/thai.jpeg")} class="card-img-top" alt="Thai Food" height="500px" width="700px" />
+                <img src={require("/Users/student_ga111/Desktop/Cassini /mod2/foodblog/foodblog/src/Images/thai.jpeg")} class="card-img-top" alt="Thai Food"  />
+                {/* height="500px" width="700px" */}
                 </div>
 
             <div class="card-body">
