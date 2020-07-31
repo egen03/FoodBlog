@@ -1,8 +1,13 @@
 import React from 'react';
+import Title from './Title';
 
 const Recipes = () => {
     return(
-        // style="width: 18rem;
+        <div className="Logo">
+        <div className="title">
+                <Title title="Eating with Erica" />
+            </div>
+
         <div className="cardContainer">
         {/* class="row row-cols-1 row-cols-sm-2" */}
             <div class="card col mb-4">
@@ -35,6 +40,7 @@ const Recipes = () => {
 
             </div>
 
+        </div>
         </div>
     )
 }
