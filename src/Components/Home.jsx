@@ -15,8 +15,13 @@ import Info from './Info';
 export class Home extends React.Component {
     render() {
         return (
+            <div className="homeContainer">
             <div className="title">
                 <Title title="Eating with Erica" />
+            </div>
+            <div>
+                <Info info="info text"/>
+            </div>
             </div>
         )
     }
