@@ -12,10 +12,9 @@
 }
 .card{
   background-color: #a76571 ;
-  padding: 40px;
-  border: pink solid;
+  padding: 10px;
+  /* border: pink solid; */
   width: 40rem;
-  position: relative;
   left: 400px;
 }
 
