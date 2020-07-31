@@ -22,6 +22,9 @@
 .foodImage{
   image-resolution: 100px;
   padding: 40px;
-  position: ;
+  
 }
 
+.logo {
+  background-color: #565676;
+}

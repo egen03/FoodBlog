@@ -3,7 +3,7 @@ import Title from './Title';
 
 const Recipes = () => {
     return(
-        <div className="Logo">
+        <div className="logo">
         <div className="title">
                 <Title title="Eating with Erica" />
             </div>
