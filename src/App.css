@@ -32,5 +32,8 @@
   font-weight: 800;
   font-family: 'Red Rose', cursive;
   letter-spacing: 5px;
-  
+}
+
+.card-text{
+  font-family: 'Red Rose', cursive;
 }
