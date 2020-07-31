@@ -19,8 +19,8 @@
 }
 
 .foodImage{
-  image-resolution: 100px;
-  padding: 40px;
+  /* image-resolution: 100px; */
+  padding: 20px;
 }
 
 .logo {
