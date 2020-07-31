@@ -1,5 +1,6 @@
 import React from 'react';
 import Title from './Title';
+import Api from './Api';
 
 const Recipes = () => {
     return(
@@ -52,6 +53,9 @@ const Recipes = () => {
             <a href="#" class="btn btn-primary">French Recipes</a>
             </div>
 
+            <div>
+                <Api />
+            </div>
             </div>
 
         </div>
