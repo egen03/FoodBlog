@@ -43,9 +43,9 @@ export default function App() {
           <Route path="/recipes">
             <Recipes />
           </Route>
-          {/* <Route path="/subscribe">
+          <Route path="/subscribe">
             <Subscribe />
-          </Route> */}
+          </Route>
         </Switch>
       </div>
     </Router>
