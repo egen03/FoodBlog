@@ -1,4 +1,5 @@
 import React from 'react'; 
+import './Styles/info.css';
 
 function Info(props) {
     return(
