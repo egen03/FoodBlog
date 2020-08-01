@@ -18,7 +18,11 @@ const Api = () => {
 
     return(
         <div>
-            <button>Search</button>
+            <form>
+                <input type="text" />
+                <button onClick="getRecipe" type="submit">Search</button>
+            </form>
+            
         </div>
     );
 }
