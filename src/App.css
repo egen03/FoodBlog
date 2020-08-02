@@ -1,12 +1,24 @@
 .navbar {
   background-color: #aeadf0! important;
+}
+
+.nav-link{
+  color: #a76571;
+  font-family: 'red rose';
+  font-size: 18px;
   
 }
+
+.nav-link:hover{
+  color: #565676;
+}
+
 
 .homeContainer {
   background-color: #565676 ;
   height: 100vh;
 }
+
 .cardContainer{
   background-color: #565676 ;
   
@@ -16,7 +28,9 @@
   padding: 10px;
   /* border: pink solid; */
   width: 40rem;
-  left: 400px;
+  /* left: 400px; */
+  justify-content: center;
+  margin: 5px;
   
 }
 
@@ -44,6 +58,7 @@
 
 .subscribe{
   background-color: #565676;
+  height: 100vh;
 }
 
 .form-group{

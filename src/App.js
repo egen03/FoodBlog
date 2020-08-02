@@ -18,7 +18,7 @@ export default function App() {
       <div>
         {/* style="background-color: #e3f2fd; */}
       <nav className="navbar">
-      <ul className="nav justify-content-end">
+      <ul className="nav nav-pills nav-justify">
   <li className="nav-item">
     <Link to="/home" className="nav-link active">Home</Link>
   </li>
