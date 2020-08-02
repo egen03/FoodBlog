@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import Recipes from './Recipes';
+import { render } from '@testing-library/react';
 
 const BASE_URL =  "http://www.recipepuppy.com/api/"
 
@@ -26,3 +27,14 @@ async getRecipe() {
 componentDidMount() {
   this.getRecipe();
 }
+
+  render(){
+    return (
+      <div>
+        <form>
+          <input type="text" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    )
+  }
