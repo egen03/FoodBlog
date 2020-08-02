@@ -16,6 +16,8 @@ class Api extends React.Component {
 
 async getRecipe() {
   const recipe = await axios.get ("http://www.recipepuppy.com/api/")
+  const result = recipe.data.results.title
+  console.log(recipeTitle);
 }
-// recipe.data.results.title
+
 
