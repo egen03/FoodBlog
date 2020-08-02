@@ -19,8 +19,10 @@ async getRecipe() {
   const result = recipe.data.results.title
   console.log(recipeTitle);
   this.setState({
-    title: Heading
+    title: inscription
   })
 }
 
-
+componentDidMount() {
+  this.getRecipe();
+}
