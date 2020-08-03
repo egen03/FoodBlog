@@ -53,9 +53,9 @@ const Recipes = () => {
             <a href="#" class="btn btn-primary">French Recipes</a>
             </div>
 
-            {/* <div>
+            <div>
                 <Api />
-            </div> */}
+            </div>
             
             </div>
 

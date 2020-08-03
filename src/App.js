@@ -14,11 +14,15 @@ import Subscribe from './Components/Subscribe';
 
 export default function App() {
   return (
+    
+
+    
     <Router>
+  
       <div>
         {/* style="background-color: #e3f2fd; */}
       <nav className="navbar">
-      <ul className="nav nav-pills nav-justify">
+      <ul className="nav justify-content-end">
   <li className="nav-item">
     <Link to="/home" className="nav-link active">Home</Link>
   </li>
@@ -33,6 +37,7 @@ export default function App() {
   </li>
 </ul>
       </nav>
+
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -49,6 +54,8 @@ export default function App() {
         </Switch>
       </div>
     </Router>
+    
+
     
   );
   
