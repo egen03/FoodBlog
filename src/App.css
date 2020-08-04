@@ -1,36 +1,41 @@
 .navbar {
-  background-color: #aeadf0! important;
+  background-color: #6d2e46! important;
 }
 
 .nav-link{
-  color: #a76571;
+  color: #cebebe;
   font-family: 'red rose';
   font-size: 18px;
+  font-weight: bolder;
   
 }
 
 .nav-link:hover{
-  color: #565676;
+  color: #ece2d0;
 }
 
 
 .homeContainer {
-  background-color: #565676 ;
+  background-color: #a26769 ;
   height: 150vh;
+  /* background-image: url("/Users/student_ga111/Desktop/Cassini /mod2/foodblog/foodblog/src/Images/background.html");
+  background-size: 100vh; */
+
 }
 
 .cardContainer{
-  background-color: #565676 ;
+  background-color: #6d2e46 ;
+  padding: 20px;
   
 }
 .card{
-  background-color: #a76571 ;
+  background-color: #a26769 ;
   padding: 10px;
   /* border: pink solid; */
   width: 40rem;
   /* left: 400px; */
   justify-content: center;
-  margin: 5px;
+  margin-left: 30vw;
   
 }
 
@@ -66,8 +71,17 @@
   padding: 20px;
   height: 20vh;
   width: 60vw;
-  background-color: #a76571;
+  background-color: #6d2e46;
+ margin-left: 20vw;
   
+}
+
+.btn{
+  background-color: #6d2e46;
+  margin-left: 20vw;
+  border: black solid;
+  font-family: 'red rose';
+  width: 15vw;
 }
 
 .form-text{

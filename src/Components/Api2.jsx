@@ -18,9 +18,9 @@ class Api extends React.Component {
 
 async getRecipe() {
   const recipe =  await axios.get("http://www.recipepuppy.com/api/.")
-  const result = recipe.data.results[6].title
-  const img = recipe.data.results[6].ingredients
-  const link = recipe.data.results[6].href
+  const result = recipe.data.results[3].title
+  const img = recipe.data.results[3].ingredients
+  const link = recipe.data.results[3].href
   console.log(result);
   this.setState({
     name: result,

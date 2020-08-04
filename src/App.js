@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home";
-import Title from "./Components/Title";
+// import Title from "./Components/Title";
 import Recipes from './Components/Recipes';
 import Subscribe from './Components/Subscribe';
 
@@ -21,8 +21,8 @@ export default function App() {
   
       <div>
         {/* style="background-color: #e3f2fd; */}
-      <nav className="navbar">
-      <ul className="nav justify-content-end">
+      <nav className="navbar justify-content-end">
+      <ul className="nav">
   <li className="nav-item">
     <Link to="/home" className="nav-link active">Home</Link>
   </li>
@@ -32,9 +32,9 @@ export default function App() {
   <li className="nav-item">
     <Link to="/subscribe" className="nav-link">Subscribe</Link>
   </li>
-  <li className="nav-item">
+  {/* <li className="nav-item">
     <Link to="/contact" className="nav-link disabled" tabindex="-1" aria-disabled="true">Contact Erica</Link>
-  </li>
+  </li> */}
 </ul>
       </nav>
 

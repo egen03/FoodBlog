@@ -4,7 +4,7 @@ import Info from './Info';
 
 const Subscribe = () => {
     return(
-        <div className="subscribe" >
+        <div className="homeContainer" >
             <div className="title">
                 <Title title="Eating with Erica" />
             </div>
